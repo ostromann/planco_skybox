@@ -45,4 +45,4 @@ for file in os.listdir(input_path):
     for i in range(0,nRows):
         for j in range(0, nCols):
             roi = img[int(i*sizeY/nRows):int(i*sizeY/nRows + sizeY/nRows) ,int(j*sizeX/nCols):int(j*sizeX/nCols + sizeX/nCols)]
-            cv2.imwrite(output_path+'/'01_back_'+str(i).zfill(2)+'_'+str(j).zfill(2)+img_name+".jpg", roi)
+            cv2.imwrite(output_path+'/'01_back_'+str(i).zfill(2)+'_'+str(j).zfill(2)+'_'+img_name+".jpg", roi)
