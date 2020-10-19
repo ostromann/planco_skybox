@@ -12,8 +12,8 @@ Once you have that, open a console window and install an image processing packag
 # Running the script
 Once you're set, navigate to the folder where you have the script 'image_slicer.py' that you downloaded from here.
 Next to it (i.e. in the same folder) you should have a folder with the images you want to have in your park. In order to get them displayed correct automatically in the game they should have the following names:
-```01_back
-01_front``
+`01_back
+01_front`
 ...
 
 If those are in place you can start the script by entering the next line to a console window:
